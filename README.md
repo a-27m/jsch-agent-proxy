@@ -1,3 +1,11 @@
+**Fork of [github.com/ymnk/jsch-agent-proxy](https://github.com/ymnk/jsch-agent-proxy) with some patches.**
+
+**This project not fully maintained, it is only to fixup some issues until a new real successor is available.**
+
+**Builds can be found in the [gitlab packages repository](https://gitlab.com/tristanlins/jsch-agent-proxy/-/packages).**
+
+---
+
 # jsch-agent-proxy
 a proxy to ssh-agent and Pageant in Java.
 
