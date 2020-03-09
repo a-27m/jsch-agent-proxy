@@ -31,7 +31,7 @@ dev_null
 /.settings/
 .metadata
 .idea/workspace.xml
-shared.iml
+*.iml
 build_graph.png
 /.idea/
 lib_managed/
