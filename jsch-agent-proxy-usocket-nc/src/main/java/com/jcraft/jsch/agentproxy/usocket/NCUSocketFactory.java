@@ -42,8 +42,11 @@ public class NCUSocketFactory implements USocketFactory {
     Process p = null;
     StringBuilder sb = new StringBuilder();
     try {
-      p = Runtime.getRuntime().exec("nc -h");
-      InputStream is = p.getErrorStream();
+      p = new ProcessBuilder()
+              .command("nc", "-h")
+              .redirectErrorStream(true)
+              .start();
+      InputStream is = p.getInputStream();
       byte[] buf = new byte[1024];
       int i = 0;
       while((i = is.read(buf, 0, buf.length))>0){
