@@ -80,9 +80,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git://github.com/ymnk/jsch-agent-proxy.git</connection>
-    <developerConnection>scm:git:git@github.com:ymnk/jsch-agent-proxy.git</developerConnection>
-    <url>http://github.com/ymnk/jsch-agent-proxy/</url>
+    <connection>scm:git:git@gitlab.com:tristanlins/jsch-agent-proxy.git</connection>
+    <developerConnection>scm:git:git@gitlab.com:tristanlins/jsch-agent-proxy.git</developerConnection>
+    <url>https://gitlab.com/tristanlins/jsch-agent-proxy</url>
   </scm>
 
   <build>
