@@ -61,6 +61,15 @@
     </roles>
     <timezone>+9</timezone>
     </developer>
+    <developer>
+      <id>lins</id>
+      <name>Tristan Lins</name>
+      <email>tristan@lins.io</email>
+      <url>https://gitlab.com/tristanlins</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
   </developers>
 
   <licenses>
